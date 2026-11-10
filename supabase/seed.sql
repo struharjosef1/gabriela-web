@@ -1,0 +1,3 @@
+-- Create and verify the first owner in Supabase Auth before calling this as postgres:
+-- select public.gab_provision_organization('<confirmed auth.users UUID>', 'Správa domů');
+-- Provision separate synthetic organizations in the test environment.

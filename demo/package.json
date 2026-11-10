@@ -1,0 +1,14 @@
+{
+  "name": "gabriela-local-fixture",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.16",
+    "fflate": "0.8.2"
+  },
+  "scripts": {
+    "test": "node lifecycle.mjs",
+    "test:http": "node start.mjs --test"
+  }
+}

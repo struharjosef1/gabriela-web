@@ -1,0 +1,19 @@
+name: Web and database verification
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm --prefix apps/web ci
+      - run: npm --prefix demo ci
+      - run: npm --prefix apps/web run typecheck
+      - run: npm --prefix apps/web test
+      - run: npm --prefix demo test
+      - run: npm --prefix demo run test:http
+      - run: npm --prefix apps/web run build

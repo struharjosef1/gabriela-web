@@ -1,0 +1,18 @@
+GABRIELA 2026 • Web 0.3.0
+
+Spuštění ukázky na Macu nebo Windows
+1. Rozbal celý ZIP do jedné složky.
+2. Na Macu otevři START_GABRIELA.command. Na Windows otevři START_GABRIELA_WINDOWS.bat.
+3. V prohlížeči na přihlašovací stránce vyber zkušební roli a klikni na Přihlásit se.
+
+První spuštění potřebuje internet a Node.js 22 nebo novější (https://nodejs.org/).
+Okno se spouštěním ponech otevřené. Když ho zavřeš, ukázka skončí.
+Ukázka běží jen na tomto počítači. Pracuje se smyšlenými daty a po ukončení se změny smažou.
+
+Doporučený první průchod
+Obyvatel nahlásí závadu v jednotce Byt 12. Správce ji přijme, přidělí technika a zahájí práci.
+Technik doplní výsledek. Obyvatel jej potvrdí a správce požadavek uzavře.
+Vlastník si může zkontrolovat historii, přístupy a nastavení.
+
+Pro skutečnou organizaci musí správce služby připojit vlastní Supabase, hosting, kontrolu
+příloh a e-mailové doručování. Postup a výsledky testů jsou v README.md.

@@ -1,0 +1,14 @@
+{
+  "name": "gabriela-2026",
+  "version": "0.3.0",
+  "private": true,
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "demo": "node demo/start.mjs",
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm --prefix apps/web run build",
+    "start": "npm --prefix apps/web start",
+    "typecheck": "npm --prefix apps/web run typecheck",
+    "test": "npm --prefix apps/web test && npm --prefix demo test && npm --prefix demo run test:http"
+  }
+}
